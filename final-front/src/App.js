@@ -13,6 +13,8 @@ import TeacherDetail from "./pages/TeacherDetail/TeacherDetail";
 import Blogs from "./pages/Blogs/Blogs";
 import BlogDetail from "./pages/BlogDetail/BlogDetail";
 import Contact from "./pages/Contact/Contact";
+import Register from "./pages/Register/Register";
+import Login from "./pages/Login/Login";
 function App() {
   return (
     <div className="App">
@@ -30,6 +32,8 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog-detail/:id" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </BrowserRouter>
