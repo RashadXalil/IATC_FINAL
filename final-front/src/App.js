@@ -8,7 +8,7 @@ import Courses from "./pages/Courses/Courses";
 import CourseDetail from "./pages/CourseDetail/CourseDetail";
 import Events from "./pages/Events/Events";
 import EventDetail from "./pages/EventDetail/EventDetail";
-import Teachers from "./pages/Teachers/teachers";
+import Teachers from "./pages/Teachers/Teachers";
 import TeacherDetail from "./pages/TeacherDetail/TeacherDetail";
 import Blogs from "./pages/Blogs/Blogs";
 import BlogDetail from "./pages/BlogDetail/BlogDetail";
