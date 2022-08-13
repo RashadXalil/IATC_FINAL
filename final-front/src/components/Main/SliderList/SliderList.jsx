@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import SingleSlider from '../Slider/Slider'
-import { useState, useEffect } from "react";
 const SliderList = (props) => {
   const sliders = props.sliders;
   return (
